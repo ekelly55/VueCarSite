@@ -14,6 +14,6 @@
 <style scoped>
     .active {
         font-weight: 900;
-        color: "pink";
+        color: rgb(153, 104, 14)
     }
 </style>

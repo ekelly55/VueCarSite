@@ -2,6 +2,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "../views/HomeView.vue"
 import AboutView from "../views/AboutView.vue"
+import CarView from "../views/CarView.vue"
 
 //this is the only place that these views are imported. The only way to access them is throught the router
 
@@ -19,6 +20,11 @@ const router = createRouter({
             name: "about",
             component: AboutView
         },
+        {
+            path: "/cars/:id",
+            name: "car",
+            component: CarView
+        }
     ] 
 })
 

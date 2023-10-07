@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Bentley",
+        "price": 29300,
+        "year": 2019
+    },
+    {
+        "id": 2,
+        "name": "Ford",
+        "price": 23097,
+        "year": 1049
+    },
+    {
+        "id": 3,
+        "name": "Subaru",
+        "price": 10384,
+        "year": 10485
+    },
+    {
+        "id": 4,
+        "name": "Honda",
+        "price": 250238,
+        "year": 34093438
+    },
+    {
+        "id": 5,
+        "name": "Chevy",
+        "price": 29230812,
+        "year": 5937
+    }
+]   
