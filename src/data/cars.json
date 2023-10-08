@@ -2,31 +2,53 @@
     {
         "id": 1,
         "name": "Bentley",
+        "model": "Continental GT",
         "price": 29300,
-        "year": 2019
+        "year": 2019,
+        "contact": {
+            "dealer": "Eamonn",
+            "phone": "555-555-5555"
+        },
+        "image": "https://hips.hearstapps.com/hmg-prod/amv-prod-cad-assets/images/17q3/685272/2019-bentley-continental-gt-photos-and-info-news-car-and-driver-photo-689618-s-original.jpg"
     },
     {
         "id": 2,
         "name": "Ford",
         "price": 23097,
-        "year": 1049
+        "year": 2049,
+        "contact": {
+            "dealer": "Eamonn",
+            "phone": "555-555-5555"
+        }
     },
     {
         "id": 3,
         "name": "Subaru",
         "price": 10384,
-        "year": 10485
+        "year": 2485,
+        "contact": {
+            "dealer": "Eamonn",
+            "phone": "555-555-5555"
+        }
     },
     {
         "id": 4,
         "name": "Honda",
         "price": 250238,
-        "year": 34093438
+        "year": 2001,
+        "contact": {
+            "dealer": "Eamonn",
+            "phone": "555-555-5555"
+        }
     },
     {
         "id": 5,
         "name": "Chevy",
         "price": 29230812,
-        "year": 5937
+        "year": 1997,
+        "contact": {
+            "dealer": "Eamonn",
+            "phone": "555-555-5555"
+        }
     }
 ]   

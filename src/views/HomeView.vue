@@ -9,7 +9,7 @@
         <h1>Home View</h1>
         <div class="cars">
             <!-- very weird. need backtick for template literal inside of regular quotes.  -->
-            <RouterLink :to="`/cars/${id}`" v-for="car in cars" :key="car.id" href="">
+            <RouterLink :to="`/cars/${car.id}`" v-for="car in cars" :key="car.id" href="">
                 {{car.name}}
             </RouterLink>
         </div>
