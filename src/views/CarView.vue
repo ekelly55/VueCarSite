@@ -19,25 +19,32 @@
 
     //another possible way to do it which allows you to set conditions (like user doesn't want something shows, for ex.) you can make a function with the router.push method in it.
 
+   
+
   
 
     
 </script>
 
 <template>
-    <div>
+    <div v-if="car">
+        <!-- if car exists -->
         <h1> Car View </h1>
         <p>{{ car.name }}</p>
         <p>{{ car.year }}</p>
         <p>${{ car.price }}</p>
         <button @click="router.push(`/cars/${carId}/contact`)">Click for contact info</button>
         <RouterView/>
+        <!-- have to keep routerView here, even if you've added the button -->
     <!-- <button @click="router.push(`/cars/${carId}/contact`)">Click for contact info</button> -->
 <!-- alt way using the function:
         //  -->
    <!-- <button @click="showContact">Click for contact info</button><RouterView /> -->
         <!-- //RouterView will look in the routes for any child routes. But routerview is not a component like ContactView, so we'll need to pass data another way. see above. -->
         
+    </div>
+    <div v-else>
+        <h1>Car not found</h1>
     </div>
 </template>
 

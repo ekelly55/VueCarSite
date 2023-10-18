@@ -4,6 +4,7 @@ import HomeView from "../views/HomeView.vue"
 import AboutView from "../views/AboutView.vue"
 import CarView from "../views/CarView.vue"
 import ContactView from "../views/ContactView.vue"
+import NotFoundView from "../views/404View.vue"
 
 //this is the only place that these views are imported. The only way to access them is throught the router
 
@@ -31,6 +32,12 @@ const router = createRouter({
                     component: ContactView
             }
             ]
+        },
+        {
+            path: "/:catchall(.*)*",
+            name: "Not Found",
+            component: NotFoundView
+            // this will be a regular expression to catch everything not defined above
         }
     ] 
 })
